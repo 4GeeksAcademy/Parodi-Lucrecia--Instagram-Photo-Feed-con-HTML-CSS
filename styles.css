@@ -1,0 +1,74 @@
+.contenedor{background:gainsboro;
+display: block;
+align-items:column; 
+justify-content: center;
+
+}
+.fecha{ font-size: 15px;
+color: grey;
+position: relative;
+left: 50%; 
+font-family: serif;}
+
+body{margin: auto;}
+
+h6{
+    text-align: right;
+    float:right;
+}
+
+h1 {color: black; 
+    text-align:center;
+     font-family: Arial, Helvetica, sans-serif; 
+     font-size: 25px;
+    background:gainsboro;
+}
+
+p {color: grey;
+    font-size: 15px;
+text-align: center;}
+
+h2{font-size: 20px;
+text-align: justify; 
+
+}
+
+.Prima,.Second,.Terzo,.Quarto{text-align: center; 
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    
+      }
+
+.Prima {
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+ width: 40%
+;background-color: white;
+margin-bottom: 25px;
+text-align: center;
+}
+
+.Second{padding: 0.5rem;
+    display: flex;
+    flex-direction: column; 
+width: 40%;
+background-color: white;
+text-align: center;
+margin-bottom: 25px }
+
+.Terzo{padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+ width: 40%;
+ background-color: white;
+text-align: center;
+margin-bottom: 25px}
+
+.Quarto{padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+ width: 40%;
+ background-color: white;
+text-align: center;
+margin-bottom: 25px}
